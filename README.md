@@ -16,6 +16,14 @@ Then search inside the resulting file
 ```
 ffmpeg -i wissal_idbella.mp4 -vn -acodec pcm_s16le -ar 44100 -ac 2 out_ws.wav
 ```
+
+If the file is of mp3 type, you can use the convert command
+
+```
+ffmpeg -i Rasha_Rizk.mp3 -acodec pcm_s16le -ac 1 -ar 16000 Rasha_Rizk.wav
+```
+
+
 # Output
 ```
     Full  Audio Duration:595.32 | s
